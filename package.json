@@ -1,0 +1,29 @@
+{
+  "name": "ala2d",
+  "version": "1.0.0",
+  "description": "基于laya2.5 简化引擎 了解内部实现原理",
+  "main": "index.js",
+  "scripts": {
+    "server": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@typescript-eslint/parser": "^5.26.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "gulp-uglify": "^3.0.2",
+    "lite-server": "^2.6.1",
+    "rollup": "^2.75.3",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-glsl": "^1.3.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.7.2"
+  }
+}
