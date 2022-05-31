@@ -1,0 +1,6 @@
+{
+  "port": 3100,
+  "files": ["./bin/**/*.{html,htm,css,js}"],
+  "server": { "baseDir": "./bin" },
+  "browser" : ["chrome"]
+}

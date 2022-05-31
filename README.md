@@ -38,9 +38,6 @@ f5 选择chrome
 修改.vscode/launch.json    端口号改为3000
 
 7 编译ts
-
-
-
 gulp
 得到dist/*.js
 
@@ -52,6 +49,10 @@ package.json
     "server": "lite-server",
     
 npm run server
+
+9 vsc添加编译配置
+f5 选择chrome
+修改.vscode/launch.json    端口号改为3000
 
 
 
