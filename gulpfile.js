@@ -17,7 +17,7 @@ const watchClientSrc = done => {
 function compleClient() {
     return rollup.rollup({
         input: './src/Main.ts',
-        treeshake: true,//½¨ÒéºöÂÔ
+        treeshake: true,//å»ºè®®å¿½ç•¥
         plugins: [
             typescript({
                 check: false,

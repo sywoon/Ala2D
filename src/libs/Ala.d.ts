@@ -10,6 +10,10 @@ declare module ala.utils {
     }
 }
 
+declare class Ala  {
+    static init();
+}
+
 declare module Ala {
     class Timer extends ala.utils.Timer {}
 }
