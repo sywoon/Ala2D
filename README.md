@@ -49,6 +49,8 @@ package.json
     "server": "lite-server",
     
 npm run server
+or
+cmd /c server2.bat
 
 9 vsc添加编译配置
 f5 选择chrome

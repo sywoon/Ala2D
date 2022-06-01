@@ -7,7 +7,7 @@ class Main {
 
     constructor() {
         console.log("test")
-        Ala.init();  //这里会报错  若不import
+        Ala.Ala.init();  //这里会报错  若不import
 
         this.timer = new Ala.Timer();
         console.log(this.timer.getTime())

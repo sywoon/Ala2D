@@ -15,7 +15,7 @@ window.screenOrientation = "sensor_portrait";
 //loadLib("libs/webgl-utils.js");
 //-----libs-end-------
 
-
+loadLib("js/ala.js");
 loadLib("js/bundle.js");
 
 
