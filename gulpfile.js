@@ -14,7 +14,7 @@ function ModifierJs() {
     return gulp.src("./bin/js/ala.js")
         .pipe(through.obj(function (file, encode, cb) {
             var srcContents = file.contents.toString();
-            var destContents = srcContents.replace(/var ala /, "window.Ala ");
+            var destContents = srcContents.replace(/var Ala /, "window.Ala ");
             destContents = destContents.replace(/\(this.Ala = this.Ala \|\| {}, Ala\)\);/, "(window.Ala = window.Ala || {}, Ala));");
             // 再次转为Buffer对象，并赋值给文件内容
             file.contents = Buffer.from(destContents);
@@ -52,7 +52,7 @@ function compleEngine() {
         return bundle.write({
             file: './bin/js/ala.js',
             format: 'iife',
-            name: 'ala',
+            name: 'Ala',
             sourcemap: true 
         });
     });

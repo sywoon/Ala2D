@@ -1,7 +1,6 @@
 ## files
-bin/js/bundle.js
-bin/js/bundle.js.map
 
 
 ## folders
 node_modules
+bin/js/
