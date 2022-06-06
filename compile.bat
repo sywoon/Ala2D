@@ -1,1 +1,2 @@
-gulp
+call gulp
+pause

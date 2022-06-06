@@ -1,6 +1,3 @@
-//如果不引入 需要编译成库 单独在index.js中加载
-// import { Ala } from "./Ala/Ala"
-// import { Timer } from "./Ala/Timer"
 
 class Main {
     timer: Ala.Timer;
@@ -16,3 +13,4 @@ class Main {
 
 
 new Main()
+
