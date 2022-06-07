@@ -1,4 +1,11 @@
 {
+  "include": ["./src/**/*.ts",
+    "./lib/**/*.d.ts"
+  ],
+  "exclude":[
+    "./bin" , //这个设置如果没有的话，tsc在生成文件时将发出一个错误
+    "./node_modules" ,
+  ],
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
@@ -12,6 +19,7 @@
 
     /* Language and Environment */
     "target": "es2015",                                     /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "es2015",                                /* Specify what module code is generated. */
     //"lib": ["dom", "es2015"],                                           /* Specify a set of bundled library declaration files that describe the target runtime environment. */
     // "jsx": "preserve",                                /* Specify what JSX code is generated. */
     // "experimentalDecorators": true,                   /* Enable experimental support for TC39 stage 2 draft decorators. */
@@ -23,9 +31,6 @@
     // "noLib": true,                                    /* Disable including any library files, including the default lib.d.ts. */
     // "useDefineForClassFields": true,                  /* Emit ECMAScript-standard-compliant class fields. */
 
-    /* Modules */
-    "module": "es2015",                                /* Specify what module code is generated. */
-    
     // "moduleResolution": "node",                       /* Specify how TypeScript looks up a file from a given module specifier. */
     // "baseUrl": "./",                                  /* Specify the base directory to resolve non-relative module names. */
     // "paths": {},                                      /* Specify a set of entries that re-map imports to additional lookup locations. */
@@ -42,7 +47,7 @@
     // "maxNodeModuleJsDepth": 1,                        /* Specify the maximum folder depth used for checking JavaScript files from `node_modules`. Only applicable with `allowJs`. */
 
     /* Emit */
-    // "rootDir": "./src/Client",                              /* Specify the root folder within your source files. */
+    // "rootDir": "./src",                              /* Specify the root folder within your source files. */
     // "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
     // "declarationDir": "./lib",                            /* Specify the output directory for generated declaration files. */
    //"declarationMap": true,                           /* Create sourcemaps for d.ts files. */

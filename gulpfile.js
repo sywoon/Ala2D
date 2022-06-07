@@ -198,7 +198,7 @@ function compleClient() {
             typescript({
                 check: false,
                 clean:true,
-                useTsconfigDeclarationDir: false,
+                // useTsconfigDeclarationDir: false,
                 tsconfigOverride: { compilerOptions: { removeComments: true } }
             }),
             glsl({

@@ -4,3 +4,5 @@
 ## folders
 node_modules
 bin/js/
+.rpt2_cache
+lib/
